@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <base target="_blank">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="with=device-with, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="application-name" content="GA6-220501096-AA4-EV04">
+        <meta name="description" content="Tutorial: introducción al lenguaje de programación java">
+        <meta name="author" content="Andres Felipe Marulanda">
+        <meta name="keywords" content="java, tutorial, introducción, estructuras, elementos, tipos, datos">
+
+        <link rel="stylesheet" href="../css/Index.css" type="text/css">
+
+        <title>
+            Tutorial * Comencemos a programar
+        </title>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    </head>
+
+    <body>
+        <div class = "container">
+
+            <!--Encabezado de la sección-->
+            <header class = "row formatoFilas">
+                <h2>
+                    COMENCEMOS A PROGRAMAR
+                </h2>
+            </header>
+
+            <!--Sección principal-->
+            <section class = "row formatoFilas">
+                <article class = "row">
+                    <img src = "../img/HolaMundo.JPG" alt = "Hola mundo" class = "col-12 col-md-6 formatoImagenes1">
+                    <p class = "col-12 col-md-6">
+                        Desarrollaremos un programa Java que escribe la frase "Hola Mundo !!!" en la consola (pantalla).
+                    </p>
+                </article>
+                <p>
+                    Un programa Java es una clase (class) que contiene el método (o función) main. Este método tiene que ser defi nido con 
+                    los modifi cadores public, static, void y debe recibir un String[] como parámetro. Los bloques de código se delimitan 
+                    con { } (llaves) y las sentencias fi nalizan con ; (punto y coma). Podemos ver también que el programa comienza defi 
+                    niendo un package. Por último, con System.out.println escribimos el texto que vamos a mostrar en la consola. En Java 
+                    siempre codifi camos clases y cada clase debe estar contenida dentro de un archivo de texto con el mismo nombre que la 
+                    clase y con extensión .java. Así, nuestro programa debe estar codifi cado en un archivo llamado HolaMundo.java 
+                    (respetando mayúsculas y minúsculas).
+                </p>
+
+                <h3>
+                    ESTRUCTURAS DE CONTROL
+                </h3>
+                <p>
+                    A continuación, analizaremos una serie de programas simples que nos ayudarán a ver cómo defi nir variables, cómo 
+                    utilizar estructuras de decisión, estructuras iterativas, cómo comentar código, etcétera.
+                </p>
+                <h4>
+                    Entrada y salida de datos por consola.
+                </h4>
+                <article class = "row">
+                    <p class = "col-12 col-md-6">
+                        Llamamos “consola” al conjunto compuesto por la pantalla (en modo texto) y el teclado de la computadora donde se 
+                        ejecutará nuestro programa. Así, cuando hablemos de “ingreso de datos por consola” nos estaremos refi riendo al 
+                        teclado y cuando hablemos de “mostrar datos por consola” nos referiremos a la pantalla (siempre en modo texto).
+                        El siguiente programa pide al usuario que ingrese su nombre, lee el dato por teclado y luego lo muestra en la 
+                        consola.
+                    </p>
+                    <img src = "../img/ManejoConsola.JPG" alt = "ingresar datos desde el teclado" class = "col-12 col-md-6 formatoImagenes2">
+                </article>
+                <p>
+                    La clase Scanner permite leer datos a través del teclado.
+                </p>
+                <p>
+                    Luego mostramos un mensaje indicando al usuario que debe ingresar su nombre a través del teclado. A continuación, 
+                    leemos el nombre que el usuario vaya a ingresar y lo almacenamos en la variable nom. Por último, mostramos un mensaje 
+                    compuesto por un texto literal "Hola Mundo: " seguido del valor contenido en la variable nom.
+                </p>
+                <p>
+                    Notemos la diferencia entre: System.out.print y System.out.println. El primero imprime en la consola el valor del 
+                    argumento que le pasamos. El segundo hace lo mismo, pero agrega un salto de línea al final.
+                </p>
+                
+            </section>
+        </div>
+        
+    </body>
+
+</html>

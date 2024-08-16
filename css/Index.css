@@ -30,6 +30,13 @@ h2 {
     text-align: center;
 }
 
+h3 {
+    margin: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
 /* Formato a la letra de los enlaces del contenido y los parrafos */
 li, p {
     font-family: 'Gill Sans MT';
@@ -47,4 +54,14 @@ li, p {
 .formatoImagenes {
     max-width: 280px;
     max-height: 168px;
+}
+
+.formatoImagenes1 {
+    max-width: 340px;
+    max-height: 175px;
+}
+
+.formatoImagenes2 {
+    max-width: 450px;
+    max-height: 300px;
 }
