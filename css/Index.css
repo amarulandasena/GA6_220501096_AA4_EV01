@@ -1,0 +1,50 @@
+/* Formato a la página de contenido e introducción */
+
+body {
+    background: linear-gradient(to right, rgb(29, 96, 158), rgb(150, 191, 230));
+    padding: 5px;
+}
+
+/* Formato al fondo de cada uno de los bloques de información */
+.formatoFilas {
+    border-radius: 5px;
+    background-color: rgb(240, 233, 233);
+    margin: 5px;
+    padding: 10px;
+}
+
+/* Formato a los titulos y subtitulos */
+h1 {
+    margin: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #acacac, 0 6px 1px rgba(0,0,0,0.1), 0 0 5px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.3), 0 3px 5px rgba(0,0,0,0.2), 0 5px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.2), 0 20px 20px rgba(0,0,0,0.15);
+}
+
+h2 {
+    margin: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Formato a la letra de los enlaces del contenido y los parrafos */
+li, p {
+    font-family: 'Gill Sans MT';
+    font-size: 20px;
+    text-align: justify;
+}
+
+/* Formato a las imagenes de las páginas */
+.centrarImagenes { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formatoImagenes {
+    max-width: 280px;
+    max-height: 168px;
+}
