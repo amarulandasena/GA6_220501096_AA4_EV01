@@ -32,27 +32,29 @@
             <!--Sección principal-->
             <section class = "row formatoFilas">
                 <article class = "row margenInferior">
-                    <img src = "../img/HolaMundo.JPG" alt = "Hola mundo" class = "col-12 col-md-5 formatoImagenes1">
-                    <p class = "col-12 col-md-7">
+                    <img src = "../img/HolaMundo.JPG" alt = "Hola mundo" class = "col-12 col-md-12 col-lg-5 formatoImagenes1">
+                    <p class = "col-12 col-md-12 col-lg-7">
                         Desarrollaremos un programa Java que escribe la frase "Hola Mundo !!!" en la consola (pantalla).
                     </p>
                 </article>
                 <p>
-                    Un programa Java es una clase (class) que contiene el método (o función) main. Este método tiene que ser defi nido con 
-                    los modifi cadores public, static, void y debe recibir un String[] como parámetro. Los bloques de código se delimitan 
-                    con { } (llaves) y las sentencias fi nalizan con ; (punto y coma). Podemos ver también que el programa comienza defi 
-                    niendo un package. Por último, con System.out.println escribimos el texto que vamos a mostrar en la consola. En Java 
-                    siempre codifi camos clases y cada clase debe estar contenida dentro de un archivo de texto con el mismo nombre que la 
-                    clase y con extensión .java. Así, nuestro programa debe estar codifi cado en un archivo llamado HolaMundo.java 
+                    Un programa Java es una clase (class) que contiene el método (o función) main. Este método tiene que ser definido con 
+                    los modificadores public, static, void y debe recibir un String[] como parámetro. Los bloques de código se delimitan 
+                    con { } (llaves) y las sentencias finalizan con ; (punto y coma). Podemos ver también que el programa comienza 
+                    definiendo un package. Por último, con System.out.println escribimos el texto que vamos a mostrar en la consola. En Java 
+                    siempre codificamos clases y cada clase debe estar contenida dentro de un archivo de texto con el mismo nombre que la 
+                    clase y con extensión .java. Así, nuestro programa debe estar codificado en un archivo llamado HolaMundo.java 
                     (respetando mayúsculas y minúsculas).
                 </p>
+            </section>
 
-                <!--Estructuras de datos-->
+            <!--Estructuras de datos-->
+            <section class = "row formatoFilas">
                 <h3>
                     ESTRUCTURAS DE CONTROL
                 </h3>
                 <p>
-                    A continuación, analizaremos una serie de programas simples que nos ayudarán a ver cómo defi nir variables, cómo 
+                    A continuación, analizaremos una serie de programas simples que nos ayudarán a ver cómo definir variables, cómo 
                     utilizar estructuras de decisión, estructuras iterativas, cómo comentar código, etcétera.
                 </p>
 
@@ -62,14 +64,14 @@
                     Entrada y salida de datos por consola.
                 </h4>
                 <article class = "row">
-                    <p class = "col-12 col-md-7">
+                    <p class = "col-12 col-md-12 col-lg-7">
                         Llamamos “consola” al conjunto compuesto por la pantalla (en modo texto) y el teclado de la computadora donde se 
-                        ejecutará nuestro programa. Así, cuando hablemos de “ingreso de datos por consola” nos estaremos refi riendo al 
+                        ejecutará nuestro programa. Así, cuando hablemos de “ingreso de datos por consola” nos estaremos refiriendo al 
                         teclado y cuando hablemos de “mostrar datos por consola” nos referiremos a la pantalla (siempre en modo texto).
                         El siguiente programa pide al usuario que ingrese su nombre, lee el dato por teclado y luego lo muestra en la 
                         consola.
                     </p>
-                    <img src = "../img/ManejoConsola.JPG" alt = "ingresar datos desde el teclado" class = "col-12 col-md-5 formatoImagenes2">
+                    <img src = "../img/ManejoConsola.JPG" alt = "ingresar datos desde el teclado" class = "col-12 col-md-9 col-lg-5 formatoImagenes2">
                 </article>
                 <p>
                     La clase Scanner permite leer datos a través del teclado.
@@ -83,41 +85,45 @@
                     Notemos la diferencia entre: System.out.print y System.out.println. El primero imprime en la consola el valor del 
                     argumento que le pasamos. El segundo hace lo mismo, pero agrega un salto de línea al final.
                 </p>
+            </section>
 
-                <!--Como usar los identificadores e ingresar comentarios de manera correcta-->
-                <br/>
+            <!--Como usar los identificadores e ingresar comentarios de manera correcta-->
+            <section class = "row formatoFilas">
                 <h4>
                     Definición de variables y Comentarios en el código.
                 </h4>
                 <article class = "row">
-                    <img src = "../img/Identificadores.JPG" alt = "Tipos de identificadores" class = "col-12 col-md-3 formatoImagenes3">
-                    <p class = "col-12 col-md-9">
+                    <img src = "../img/Identificadores.JPG" alt = "Tipos de identificadores" class = "col-12 col-md-7 col-lg-4 formatoImagenes3">
+                    <p class = "col-12 col-md-12 col-lg-8">
                         Podemos definir variables en cualquier parte del código simplemente indicando el tipo de datos y el nombre de la 
-                        variable (identifi cador).
+                        variable (identificador).
                     </p>
                 </article>
-                <article class = "row margenInferior">
-                    <img src = "../img/Comentarios.JPG" alt = "Tipos de comentarios" class = "col-12 col-md-3 formatoImagenes2">
-                    <p class = "col-12 col-md-9">
+                <article class = "row margenInferior">                   
+                    <p class = "col-12 col-md-9 col-lg-7">
                         Java soporta comentarios in-line (de una sola línea) y comentarios de varias líneas.
                     </p>   
+                    <img src = "../img/Comentarios.JPG" alt = "Tipos de comentarios" class = "col-12 col-md-6 col-lg-5 formatoImagenes2">
                 </article>
 
                 <br/>
                 <p>
-                    <strong> Ejemplo: </strong> El siguiente programa pide al usuario que ingrese su nombre, edad y altura. Estos datos deben ingresarse 
-                    separados por un espacio en blanco. Luego los muestra por consola.
+                    <strong> Ejemplo: </strong> El siguiente programa pide al usuario que ingrese su nombre, edad y altura. Estos datos 
+                    deben ingresarse separados por un espacio en blanco. Luego los muestra por consola.
                 </p>
                 <article class = "row margenInferior">
-                    <img src = "../img/Ejemplo1.JPG" alt = "Ejemplo ingreso datos" class = "col-12 col-md-4 formatoImagenes2">
-                    <p class = "col-12 col-md-8">
+                    <img src = "../img/Ejemplo1.JPG" alt = "Ejemplo ingreso datos" class = "col-12 col-md-8 col-lg-5 formatoImagenes2">
+                    <p class = "col-12 col-md-4 col-lg-7">
                         Este ejemplo ilustra el uso de datos de diferentes tipos: String, int y double. También muestra que podemos definir 
                         variables en cualquier parte del código fuente (igual que en C++) y, por último, muestra cómo concatenar datos de 
                         diferentes tipos para emitir la salida del programa.
                     </p>
                 </article>
+            </section>
+                
 
-                <!--Estructuras if, if-else, switch y el operador terciario-->
+            <!--Estructuras if, if-else, switch y el operador terciario-->
+            <section class = "row formatoFilas">
                 <h4>
                     Estructuras de decisión.
                 </h4>
@@ -128,17 +134,17 @@
                     Decisión in-line: a>b ? "a es Mayor" : "a es Menor". <br/>
                 </p>
                 <article class = "row">
-                    <div class = "col-12 col-md-7">
+                    <div class = "col-12 col-md-12 col-lg-5">
                         <p>
-                            Comenzaremos analizando la sentencia if cuya estructura es la siguiente: <br/>
-                            <em>
-                                if( condicion ) <br/>
-                                { <br/>
-                                    accion1; <br/>
-                                } else { <br/>
-                                    accion2; <br/>
+                            Comenzaremos analizando la sentencia <strong> if </strong> cuya estructura es la siguiente: <br/>
+                            <pre>
+                                if( condición ) 
+                                { 
+                                    accion1; 
+                                } else { 
+                                    accion2; 
                                 }
-                            </em>
+                            </pre>
                         </p>
                         <p>
                             <strong>  Ejemplo: </strong> ¿es mayor de 21 años?
@@ -146,15 +152,15 @@
                             por el usuario es mayor o igual que 21.
                         </p>
                     </div>
-                        <img src = "../img/EjemploCondicionales1.JPG" alt = "Ejemplo condicional simple" class = "col-12 col-md-5 formatoImagenes2">
+                        <img src = "../img/EjemploCondicionales1.JPG" alt = "Ejemplo condicional simple" class = "col-12 col-md-10 col-lg-7 formatoImagenes2">
                 </article>
                 <p>
                     El <strong> if in-line </strong> tiene la siguiente estructura: <br/>
                     <em> condicion ? retornoPorTrue : retornoPorFalse; </em>
                 </p>
                 <p>
-                    Lo anterior debe leerse de la siguiente manera: si se verifica la condicion entonces se retorna la expresión ubicada 
-                    entre el ? (signo de interrogación) y los : (dos puntos). Si la condicion resulta falsa entonces se retorna la 
+                    Lo anterior debe leerse de la siguiente manera: si se verifica la condición entonces se retorna la expresión ubicada 
+                    entre el ? (signo de interrogación) y los : (dos puntos). Si la condición resulta falsa entonces se retorna la 
                     expresión ubicada después de los : (dos puntos).
                 </p>
                 <p>
@@ -164,96 +170,98 @@
                         String mssg = (resto == 0 ) ? "es Par": "es Impar";
                     </em>
                 </p>
+
+                <!--Estructura switch-->
                 <br/>
                 <p>
-                    La decisión múltiple <strong> switch </strong> tiene la siguiente estructura:
-                    <em>
-                        switch( variableEntera )<br/>
-                        { <br/>
-                            case valor1: <br/>
-                                accionA; <br/>
-                                accionB; <br/>
-                                : <br/>
-                                break; <br/>
-                            case valor2: <br/>
-                                accionX; <br/>
-                                accionY; <br/>
-                                : <br/>
-                                break; <br/>
-                                : <br/>
-                            default: <br/>
-                                masAcciones; <br/>
-                        } <br/>
-                    </em>
+                    La decisión múltiple <strong> Switch </strong> tiene la siguiente estructura:
+                    <pre>
+                        switch( variableEntera )
+                        { 
+                            case valor1: 
+                                accionA; 
+                                accionB; 
+                                : 
+                                break; 
+                            case valor2: 
+                                accionX; 
+                                accionY; 
+                                : 
+                                break; 
+                                : 
+                            default: 
+                                masAcciones; 
+                        } 
+                    </pre>
                 </p>
                 <div class = "row margenInferior">
-                    <p class = "col-12 col-md-7">
+                    <p class = "col-12 col-md-12 col-lg-7">
                         Dependiendo del valor de variableEntera, el programa ingresará por el case, cuyo valor coincide con el de la variable. 
                         Se ejecutarán todas las acciones desde ese punto hasta el final, salvo que se encuentre una sentencia break que 
                         llevará al control del programa hasta la llave que cierra el switch. Por este motivo (al igual que en C), es muy 
-                        importante recordar poner siempre el break al finalizar cada case.
+                        importante recordar poner siempre el break al finalizar cada case. <br/>
+                        <br/>
+                        Como vemos, el switch permite decidir entre diferentes opciones (siempre deben ser numéricas). <br/>
+                        Dependiendo de cuál sea el valor ingresado por el usuario el programa optará por el case correspondiente. En caso de 
+                        que el usuario haya ingresado un valor para el cual no hemos definido ningún case entonces el programa ingresará por 
+                        default. <br/>
+                        Notemos también que utilizamos la sentencia break para finalizar cada case. Esto es muy importante ya que si no la 
+                        utilizamos, el programa, luego de entrar al case correspondiente, seguirá secuencialmente ejecutando todas las 
+                        sentencias posteriores. Si el lector conoce algo de lenguaje C, esto no le llamará la atención ya que funciona 
+                        exactamente igual.
                     </p>
-                    <img src = "../img/EjemploSwitch.jpg" alt = "Ejemplo estructura switc" class = "formatoImagenes4 col-12 col-md-5">
+                    <img src = "../img/EjemploSwitch.jpg" alt = "Ejemplo estructura switc" class = "formatoImagenes4 col-12 col-md-12 col-lg-5">
                 </div>
-                <p>
-                    Como vemos, el switch permite decidir entre diferentes opciones (siempre deben ser numéricas). <br/>
-                    Dependiendo de cuál sea el valor ingresado por el usuario el programa optará por el case correspondiente. En caso de 
-                    que el usuario haya ingresado un valor para el cual no hemos definido ningún case entonces el programa ingresará por 
-                    default. <br/>
-                    Notemos también que utilizamos la sentencia break para finalizar cada case. Esto es muy importante ya que si no la 
-                    utilizamos, el programa, luego de entrar al case correspondiente, seguirá secuencialmente ejecutando todas las 
-                    sentencias posteriores. Si el lector conoce algo de lenguaje C, esto no le llamará la atención ya que funciona 
-                    exactamente igual.
-                </p>
+            </section>
 
-                <!--Ciclos en java-->
+            <!--Ciclos en java-->
+            <section class = "row formatoFilas">
                 <h4>
                     Estructuras iterativas.
                 </h4>
                 <p>
-                    Disponemos de tres estructuras iterativas: el while, el do-while y el for. Nuevamente, para aquellos que conocen 
-                    lenguaje C estas instrucciones son idénticas.
+                    Disponemos de tres estructuras iterativas: <em> el while, el do-while y el for. </em> Nuevamente, para aquellos que 
+                    conocen lenguaje C estas instrucciones son idénticas.
                 </p>
 
                 <!--Estructura while-->
                 <p>
                     Comencemos por analizar el uso del <strong> while </strong> cuya estructura es la siguiente: <br/>
-                    <em>
-                        while( condicion ) { <br/>
-                            accion1; <br/>
-                            accion2; <br/>
-                                : <br/>
-                        } <br/>
-                    </em>
-                    El ciclo itera mientras condicion resulte verdadera.
+                    <pre>
+                        while( condición ) { 
+                            acción1; 
+                            acción2; 
+                                : 
+                        } 
+                    </pre>
+                    El ciclo itera mientras la condición resulte verdadera.
                 </p>
                 <div class = "row margenInferior">
-                    <p class = "col-12 col-md-7">
+                    <p class = "col-12 col-md-12 col-lg-7">
                         <strong> Ejemplo: </strong> El siguiente programa utiliza un while para mostrar los primeros n números naturales.
-                        El usuario ingresa el valor n por teclado.
+                        El usuario ingresa el valor de n por teclado. <br/>
+                        <br/>
+                        Vemos que el ciclo while itera mientras que el valor de i sea menor o igual que el valor de n (que fue ingresado por 
+                        teclado). Por cada iteración mostramos el valor de la variable i y luego la incrementamos.
                     </p>
-                    <img src = "../img/EjemploWhile.JPG" alt = "Ejemplo ciclo while" class = "col-12 col-md-5 formatoImagenes2">
+                    <img src = "../img/EjemploWhile.JPG" alt = "Ejemplo ciclo while" class = "col-12 col-md-10 col-lg-5 formatoImagenes2">
                 </div>
-                <p>
-                    Vemos que el ciclo while itera mientras que el valor de i sea menor o igual que el valor de n (que fue ingresado por 
-                    teclado). Por cada iteración mostramos el valor de la variable i y luego la incrementamos.
-                </p>
 
                 <!--Estructura do while-->
                 <p>
                     Analicemos el ciclo <strong> do-while </strong> cuya estructura es la siguiente:
                 </p>
                 <p>
-                    <em>
-                        do { <br/>
-                            accion1; <br/>
-                            accion2; <br/>
-                                : <br/>
-                        } while( condicion );
-                    </em>
+                    <pre>
+                        do { 
+                            acción1; 
+                            acción2; 
+                                : 
+                        } while( condición );
+                    </pre>
                 </p>
                 <p>
-                    Este ciclo también itera mientras se verifique la condicion, pero a diferencia del ciclo anterior en este caso la 
+                    Este ciclo también itera mientras se verifique la condición, pero a diferencia del ciclo anterior en este caso la 
                     entrada al ciclo no está condicionada; por lo tanto, las acciones encerradas entre el do y el while se ejecutarán 
                     al menos una vez.
                 </p>
@@ -263,13 +271,13 @@
                     Por último, veremos el ciclo <strong> for </strong> cuya estructura es la siguiente:
                 </p>
                 <p>
-                    <em>
-                        for( inicializacion; condicion; incremento ) { <br/>
-                            accion1; <br/>
-                            accion2; <br/>
-                                : <br/>
-                        } <br/>
-                    </em>
+                    <pre>
+                        for( inicialización; condición; incremento ) { 
+                            acción1; 
+                            acción2; 
+                                : 
+                        } 
+                    </pre>
                 </p>
                 <p>
                     Este ciclo tiene tres secciones separadas por ; (punto y coma). En la primera sección, se define e inicializa una 
@@ -279,12 +287,12 @@
                 </p>
                 <div class = "row margenInferior">
                     <p class = "col-12 col-md-6">
-                        Ejemplo: muestra sencilla de la estructura de un ciclo for.
+                        <strong> Ejemplo: </strong> muestra sencilla de la estructura de un ciclo for.
                     </p>
                     <img src = "../img/EjemploCicloFor.JPG" alt = "Ejemplo ciclo for" class = "col-12 col-md-6 formatoImagenes">
                 </div>     
             </section>
-            
+
             <!--Pie de página-->
             <div class = "row">
                 <p class = "col-12 col-md-2">Copyright©2024</p>
