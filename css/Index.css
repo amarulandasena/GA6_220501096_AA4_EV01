@@ -48,6 +48,13 @@ li, p {
     text-align: justify;
 }
 
+/* Formato parrafos pie de página */
+.pieDePagina {
+    font-family: 'Gill Sans MT';
+    font-size: 20px;
+    text-align: center;
+}
+
 /* Formato a las imagenes de las páginas */
 .centrarImagenes { 
     display: flex;
